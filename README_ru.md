@@ -17,7 +17,7 @@
 
 Для автоматической установки добавьте строку в Ваш **`pipreq`** файл:
 
-    git+https://github.com/dvhb/dvhb_printsrc.git@0.0.2#egg=dvhb_printsrc==0.0.2
+    git+https://github.com/dvhb/dvhb_printsrc.git@0.0.3#egg=dvhb_printsrc==0.0.3
 
 Параметры функции:
 

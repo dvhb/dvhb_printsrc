@@ -67,7 +67,6 @@ def printsrc(in_folder, out_file, include=None, exclude=None, inc_file=None, exc
     <style type="text/css">
         {2}
         * {{word-break: break-all; word-wrap: break-word;}}
-        .highlight{{font-size: 12; line-height: 14px; border: 1px solid #bb8844; border-radius: 4px;padding: 10px;}}
     </style>
 </head>
 <body>\n<a name="printsrc_begin"></a>\n""".format(title.decode('UTF-8'), datetime.now().isoformat(), style_list)
