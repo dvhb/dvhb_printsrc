@@ -10,14 +10,14 @@ Example **`fabfile.py`**:
 
 Then you can run:
 
-    $ fabfile printsrc:'path/to/src',outFile.html,,'.py[oc]+$\\\\,static'
+    $ fabfile printsrc:'path/to/src',outFile.html,,'.py[oc]+$\\,static'
 
-**Note:** double backslash on regex separation, because of it's not raw string! Ofcourse you also can use regex
-`'or'` — `'|'`.
+**Note:** double backslash on regex separation, because of it's not raw string! Of course you also can use regex
+`'or'` — `'|'` but then regex hasn't be splited to separate expressions (see function parameters description).
 
 For automatic install add string to your **`pipreq`** file:
 
-    git+https://github.com/dvhb/dvhb_printsrc.git@0.0.1#egg=dvhb_printsrc==0.0.1
+    git+https://github.com/dvhb/dvhb_printsrc.git@0.0.2#egg=dvhb_printsrc==0.0.2
 
 Function parameters:
 
