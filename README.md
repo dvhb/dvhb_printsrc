@@ -1,10 +1,12 @@
-# DevHub PrintSrc v0.0.4
+# DevHub PrintSrc v0.0.5
 
 Library for generation printable `.html` file from selected source files in directory.
 
 Meanwhile in Russia printed documents are legally valid only.
 Print sources from GitHub, stitch them and sign them if you need to delivery results to your customer or register
 your rights for code.
+
+## Using
 
 Just import `printsrc` from `dvhb_printsrc`. Can use as is in `fabfile.py`:
 
@@ -21,7 +23,9 @@ Then you can run:
 
 For automatic install add string to your **`pipreq`** file:
 
-    git+https://github.com/dvhb/dvhb_printsrc.git@0.0.4#egg=dvhb_printsrc==0.0.4
+    git+https://github.com/dvhb/dvhb_printsrc.git@0.0.5#egg=dvhb_printsrc==0.0.5
+
+## API
 
 Function parameters:
 
@@ -39,7 +43,7 @@ Function parameters:
 * `verbose` — print current actions to standart output;
 * `binary_ext` — list of binary filenames extensions (always exluded).
 
-Algoritm:
+## Algoritm
 
 `.html` extension automatically added to out file.
 
